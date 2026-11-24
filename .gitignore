@@ -1,0 +1,16 @@
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Local harness output: the harness writes /output/entry.txt at run
+# time, and a local run with --output can point anywhere, so the whole
+# output/ directory stays out of the repository.
+output/
+
+# Submission bundles (built locally, never committed)
+*.tar.gz
+
+# Editor and OS leftovers
+.DS_Store
+*.swp
